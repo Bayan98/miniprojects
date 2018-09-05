@@ -35,7 +35,6 @@ ofstream scoreout;
 const string BOLDBLACK = "\033[1m\033[30m", BOLDGREEN = "\033[1m\033[32m", BOLDRED = "\033[1m\033[31m";
 vector<pair<string, int>> highscore;
 //                    kbhit() function
-//  reference: http://stackoverflow.com/questions/18684332/capturing-keystrokes-in-linux
 char kbhit(void)
 {
     struct termios oldt, newt;
